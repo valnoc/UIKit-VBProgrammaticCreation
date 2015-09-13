@@ -10,16 +10,9 @@
 Pod::Spec.new do |s|
   s.name             = "UIKit+VBProgrammaticCreation"
   s.version          = "1.0.0"
-  s.summary          = "VBVerticalScrollView limits scrolling to only vertical direction by resizing its contentView."
+s.summary          = "UIKit+VBProgrammaticCreation is a set of categories for UIKit classes (UIView, UIButton, UIBarButtonItem, ...) which help to create readable code if you instantiate ui elements programmatically."
   s.description      = <<-DESC
-VBVerticalScrollView limits scrolling to only vertical direction by resizing its contentView.
-
-According to Apple docs when working with UIScrollView you should put all views into one contentView which will be added to scrollView itself.
-
-### Use case
-
-1. Create view with information to be scrolled (do not forget to set constraints)
-2. verticalScrollView.contentView = myContentView;
+UIKit+VBProgrammaticCreation is a set of categories for UIKit classes (UIView, UIButton, UIBarButtonItem, ...) which help to create readable code if you instantiate ui elements programmatically.
                        DESC
   s.homepage         = "https://github.com/valnoc/UIKit-VBProgrammaticCreation"
   s.license          = 'MIT'
