@@ -1,0 +1,5 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+pod 'VBException', '~> 1.0'
+pod 'VBAutolayout', '~> 1.0'
+pod 'UIButton+BackgroundColor', '~> 0.1'

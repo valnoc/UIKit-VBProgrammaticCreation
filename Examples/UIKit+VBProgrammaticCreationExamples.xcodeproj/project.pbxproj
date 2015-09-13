@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12B1BF52B70D4BA31D60E58B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 413644FBA4BDEFA50FEDDA2A /* libPods.a */; };
+		5BCB7A561B9C9EC2004CCDA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCB7A551B9C9EC2004CCDA3 /* main.m */; };
+		5BCB7A591B9C9EC2004CCDA3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCB7A581B9C9EC2004CCDA3 /* AppDelegate.m */; };
+		5BCB7A5C1B9C9EC2004CCDA3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCB7A5B1B9C9EC2004CCDA3 /* ViewController.m */; };
+		5BCB7A5F1B9C9EC2004CCDA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BCB7A5D1B9C9EC2004CCDA3 /* Main.storyboard */; };
+		5BCB7A611B9C9EC2004CCDA3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BCB7A601B9C9EC2004CCDA3 /* Images.xcassets */; };
+		5BCB7A641B9C9EC2004CCDA3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BCB7A621B9C9EC2004CCDA3 /* LaunchScreen.xib */; };
+		5BCB7A701B9C9EC3004CCDA3 /* UIKit_VBProgrammaticCreationExamplesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCB7A6F1B9C9EC3004CCDA3 /* UIKit_VBProgrammaticCreationExamplesTests.m */; };
+		5BCB7A801B9C9EFC004CCDA3 /* UIBarButtonItem+VBProgrammaticCreation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCB7A7B1B9C9EFC004CCDA3 /* UIBarButtonItem+VBProgrammaticCreation.m */; };
+		5BCB7A811B9C9EFC004CCDA3 /* UIButton+VBProgrammaticCreation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCB7A7D1B9C9EFC004CCDA3 /* UIButton+VBProgrammaticCreation.m */; };
+		5BCB7A821B9C9EFC004CCDA3 /* UIView+VBProgrammaticCreation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCB7A7F1B9C9EFC004CCDA3 /* UIView+VBProgrammaticCreation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5BCB7A6A1B9C9EC3004CCDA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BCB7A481B9C9EC2004CCDA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BCB7A4F1B9C9EC2004CCDA3;
+			remoteInfo = "UIKit+VBProgrammaticCreationExamples";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		413644FBA4BDEFA50FEDDA2A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FFAB3FA62873E406E2BFA3D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		59C6F757EA71DA318115FD89 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		5BCB7A501B9C9EC2004CCDA3 /* UIKit+VBProgrammaticCreationExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIKit+VBProgrammaticCreationExamples.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BCB7A541B9C9EC2004CCDA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BCB7A551B9C9EC2004CCDA3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5BCB7A571B9C9EC2004CCDA3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5BCB7A581B9C9EC2004CCDA3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5BCB7A5A1B9C9EC2004CCDA3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5BCB7A5B1B9C9EC2004CCDA3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5BCB7A5E1B9C9EC2004CCDA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5BCB7A601B9C9EC2004CCDA3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5BCB7A631B9C9EC2004CCDA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5BCB7A691B9C9EC3004CCDA3 /* UIKit+VBProgrammaticCreationExamplesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIKit+VBProgrammaticCreationExamplesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BCB7A6E1B9C9EC3004CCDA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BCB7A6F1B9C9EC3004CCDA3 /* UIKit_VBProgrammaticCreationExamplesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIKit_VBProgrammaticCreationExamplesTests.m; sourceTree = "<group>"; };
+		5BCB7A7A1B9C9EFC004CCDA3 /* UIBarButtonItem+VBProgrammaticCreation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+VBProgrammaticCreation.h"; sourceTree = "<group>"; };
+		5BCB7A7B1B9C9EFC004CCDA3 /* UIBarButtonItem+VBProgrammaticCreation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+VBProgrammaticCreation.m"; sourceTree = "<group>"; };
+		5BCB7A7C1B9C9EFC004CCDA3 /* UIButton+VBProgrammaticCreation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+VBProgrammaticCreation.h"; sourceTree = "<group>"; };
+		5BCB7A7D1B9C9EFC004CCDA3 /* UIButton+VBProgrammaticCreation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+VBProgrammaticCreation.m"; sourceTree = "<group>"; };
+		5BCB7A7E1B9C9EFC004CCDA3 /* UIView+VBProgrammaticCreation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+VBProgrammaticCreation.h"; sourceTree = "<group>"; };
+		5BCB7A7F1B9C9EFC004CCDA3 /* UIView+VBProgrammaticCreation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+VBProgrammaticCreation.m"; sourceTree = "<group>"; };
+		5BCB7A831B9CA163004CCDA3 /* UIKit+VBProgrammaticCreation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIKit+VBProgrammaticCreation.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BCB7A4D1B9C9EC2004CCDA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12B1BF52B70D4BA31D60E58B /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BCB7A661B9C9EC3004CCDA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DA86CF11944D24B836A3FFA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				59C6F757EA71DA318115FD89 /* Pods.debug.xcconfig */,
+				4FFAB3FA62873E406E2BFA3D /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3EB26A2F5B3A8092CE6E7E60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				413644FBA4BDEFA50FEDDA2A /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5BCB7A471B9C9EC2004CCDA3 = {
+			isa = PBXGroup;
+			children = (
+				5BCB7A791B9C9EE7004CCDA3 /* UIKit+VBProgrammaticCreation */,
+				5BCB7A521B9C9EC2004CCDA3 /* UIKit+VBProgrammaticCreationExamples */,
+				5BCB7A6C1B9C9EC3004CCDA3 /* UIKit+VBProgrammaticCreationExamplesTests */,
+				5BCB7A511B9C9EC2004CCDA3 /* Products */,
+				1DA86CF11944D24B836A3FFA /* Pods */,
+				3EB26A2F5B3A8092CE6E7E60 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5BCB7A511B9C9EC2004CCDA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BCB7A501B9C9EC2004CCDA3 /* UIKit+VBProgrammaticCreationExamples.app */,
+				5BCB7A691B9C9EC3004CCDA3 /* UIKit+VBProgrammaticCreationExamplesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BCB7A521B9C9EC2004CCDA3 /* UIKit+VBProgrammaticCreationExamples */ = {
+			isa = PBXGroup;
+			children = (
+				5BCB7A571B9C9EC2004CCDA3 /* AppDelegate.h */,
+				5BCB7A581B9C9EC2004CCDA3 /* AppDelegate.m */,
+				5BCB7A5A1B9C9EC2004CCDA3 /* ViewController.h */,
+				5BCB7A5B1B9C9EC2004CCDA3 /* ViewController.m */,
+				5BCB7A5D1B9C9EC2004CCDA3 /* Main.storyboard */,
+				5BCB7A601B9C9EC2004CCDA3 /* Images.xcassets */,
+				5BCB7A621B9C9EC2004CCDA3 /* LaunchScreen.xib */,
+				5BCB7A531B9C9EC2004CCDA3 /* Supporting Files */,
+			);
+			path = "UIKit+VBProgrammaticCreationExamples";
+			sourceTree = "<group>";
+		};
+		5BCB7A531B9C9EC2004CCDA3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BCB7A541B9C9EC2004CCDA3 /* Info.plist */,
+				5BCB7A551B9C9EC2004CCDA3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5BCB7A6C1B9C9EC3004CCDA3 /* UIKit+VBProgrammaticCreationExamplesTests */ = {
+			isa = PBXGroup;
+			children = (
+				5BCB7A6F1B9C9EC3004CCDA3 /* UIKit_VBProgrammaticCreationExamplesTests.m */,
+				5BCB7A6D1B9C9EC3004CCDA3 /* Supporting Files */,
+			);
+			path = "UIKit+VBProgrammaticCreationExamplesTests";
+			sourceTree = "<group>";
+		};
+		5BCB7A6D1B9C9EC3004CCDA3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BCB7A6E1B9C9EC3004CCDA3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5BCB7A791B9C9EE7004CCDA3 /* UIKit+VBProgrammaticCreation */ = {
+			isa = PBXGroup;
+			children = (
+				5BCB7A831B9CA163004CCDA3 /* UIKit+VBProgrammaticCreation.h */,
+				5BCB7A7A1B9C9EFC004CCDA3 /* UIBarButtonItem+VBProgrammaticCreation.h */,
+				5BCB7A7B1B9C9EFC004CCDA3 /* UIBarButtonItem+VBProgrammaticCreation.m */,
+				5BCB7A7C1B9C9EFC004CCDA3 /* UIButton+VBProgrammaticCreation.h */,
+				5BCB7A7D1B9C9EFC004CCDA3 /* UIButton+VBProgrammaticCreation.m */,
+				5BCB7A7E1B9C9EFC004CCDA3 /* UIView+VBProgrammaticCreation.h */,
+				5BCB7A7F1B9C9EFC004CCDA3 /* UIView+VBProgrammaticCreation.m */,
+			);
+			name = "UIKit+VBProgrammaticCreation";
+			path = "../UIKit+VBProgrammaticCreation";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BCB7A4F1B9C9EC2004CCDA3 /* UIKit+VBProgrammaticCreationExamples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BCB7A731B9C9EC3004CCDA3 /* Build configuration list for PBXNativeTarget "UIKit+VBProgrammaticCreationExamples" */;
+			buildPhases = (
+				6F4616FF1376B818D405177B /* Check Pods Manifest.lock */,
+				5BCB7A4C1B9C9EC2004CCDA3 /* Sources */,
+				5BCB7A4D1B9C9EC2004CCDA3 /* Frameworks */,
+				5BCB7A4E1B9C9EC2004CCDA3 /* Resources */,
+				3A56699281231CCF75F8B38E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIKit+VBProgrammaticCreationExamples";
+			productName = "UIKit+VBProgrammaticCreationExamples";
+			productReference = 5BCB7A501B9C9EC2004CCDA3 /* UIKit+VBProgrammaticCreationExamples.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5BCB7A681B9C9EC3004CCDA3 /* UIKit+VBProgrammaticCreationExamplesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BCB7A761B9C9EC3004CCDA3 /* Build configuration list for PBXNativeTarget "UIKit+VBProgrammaticCreationExamplesTests" */;
+			buildPhases = (
+				5BCB7A651B9C9EC3004CCDA3 /* Sources */,
+				5BCB7A661B9C9EC3004CCDA3 /* Frameworks */,
+				5BCB7A671B9C9EC3004CCDA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BCB7A6B1B9C9EC3004CCDA3 /* PBXTargetDependency */,
+			);
+			name = "UIKit+VBProgrammaticCreationExamplesTests";
+			productName = "UIKit+VBProgrammaticCreationExamplesTests";
+			productReference = 5BCB7A691B9C9EC3004CCDA3 /* UIKit+VBProgrammaticCreationExamplesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BCB7A481B9C9EC2004CCDA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Valeriy Bezuglyy";
+				TargetAttributes = {
+					5BCB7A4F1B9C9EC2004CCDA3 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					5BCB7A681B9C9EC3004CCDA3 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 5BCB7A4F1B9C9EC2004CCDA3;
+					};
+				};
+			};
+			buildConfigurationList = 5BCB7A4B1B9C9EC2004CCDA3 /* Build configuration list for PBXProject "UIKit+VBProgrammaticCreationExamples" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5BCB7A471B9C9EC2004CCDA3;
+			productRefGroup = 5BCB7A511B9C9EC2004CCDA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BCB7A4F1B9C9EC2004CCDA3 /* UIKit+VBProgrammaticCreationExamples */,
+				5BCB7A681B9C9EC3004CCDA3 /* UIKit+VBProgrammaticCreationExamplesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BCB7A4E1B9C9EC2004CCDA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BCB7A5F1B9C9EC2004CCDA3 /* Main.storyboard in Resources */,
+				5BCB7A641B9C9EC2004CCDA3 /* LaunchScreen.xib in Resources */,
+				5BCB7A611B9C9EC2004CCDA3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BCB7A671B9C9EC3004CCDA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A56699281231CCF75F8B38E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F4616FF1376B818D405177B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BCB7A4C1B9C9EC2004CCDA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BCB7A5C1B9C9EC2004CCDA3 /* ViewController.m in Sources */,
+				5BCB7A801B9C9EFC004CCDA3 /* UIBarButtonItem+VBProgrammaticCreation.m in Sources */,
+				5BCB7A591B9C9EC2004CCDA3 /* AppDelegate.m in Sources */,
+				5BCB7A821B9C9EFC004CCDA3 /* UIView+VBProgrammaticCreation.m in Sources */,
+				5BCB7A561B9C9EC2004CCDA3 /* main.m in Sources */,
+				5BCB7A811B9C9EFC004CCDA3 /* UIButton+VBProgrammaticCreation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BCB7A651B9C9EC3004CCDA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BCB7A701B9C9EC3004CCDA3 /* UIKit_VBProgrammaticCreationExamplesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5BCB7A6B1B9C9EC3004CCDA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BCB7A4F1B9C9EC2004CCDA3 /* UIKit+VBProgrammaticCreationExamples */;
+			targetProxy = 5BCB7A6A1B9C9EC3004CCDA3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5BCB7A5D1B9C9EC2004CCDA3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BCB7A5E1B9C9EC2004CCDA3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5BCB7A621B9C9EC2004CCDA3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BCB7A631B9C9EC2004CCDA3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5BCB7A711B9C9EC3004CCDA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5BCB7A721B9C9EC3004CCDA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BCB7A741B9C9EC3004CCDA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59C6F757EA71DA318115FD89 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UIKit+VBProgrammaticCreationExamples/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5BCB7A751B9C9EC3004CCDA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FFAB3FA62873E406E2BFA3D /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UIKit+VBProgrammaticCreationExamples/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5BCB7A771B9C9EC3004CCDA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UIKit+VBProgrammaticCreationExamplesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIKit+VBProgrammaticCreationExamples.app/UIKit+VBProgrammaticCreationExamples";
+			};
+			name = Debug;
+		};
+		5BCB7A781B9C9EC3004CCDA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UIKit+VBProgrammaticCreationExamplesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIKit+VBProgrammaticCreationExamples.app/UIKit+VBProgrammaticCreationExamples";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BCB7A4B1B9C9EC2004CCDA3 /* Build configuration list for PBXProject "UIKit+VBProgrammaticCreationExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BCB7A711B9C9EC3004CCDA3 /* Debug */,
+				5BCB7A721B9C9EC3004CCDA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BCB7A731B9C9EC3004CCDA3 /* Build configuration list for PBXNativeTarget "UIKit+VBProgrammaticCreationExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BCB7A741B9C9EC3004CCDA3 /* Debug */,
+				5BCB7A751B9C9EC3004CCDA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BCB7A761B9C9EC3004CCDA3 /* Build configuration list for PBXNativeTarget "UIKit+VBProgrammaticCreationExamplesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BCB7A771B9C9EC3004CCDA3 /* Debug */,
+				5BCB7A781B9C9EC3004CCDA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BCB7A481B9C9EC2004CCDA3 /* Project object */;
+}

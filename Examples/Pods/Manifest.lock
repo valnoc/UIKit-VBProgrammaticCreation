@@ -1,0 +1,16 @@
+PODS:
+  - UIButton+BackgroundColor (0.1)
+  - VBAutolayout (1.0.0)
+  - VBException (1.0.1)
+
+DEPENDENCIES:
+  - UIButton+BackgroundColor (~> 0.1)
+  - VBAutolayout (~> 1.0)
+  - VBException (~> 1.0)
+
+SPEC CHECKSUMS:
+  UIButton+BackgroundColor: 86e9b059712698911b504fc1ab1d235627e28aed
+  VBAutolayout: 4cc7b566864a52c5e5eb6662a992da0191d2cc67
+  VBException: 07642134bb7804ab2602fde2f4c332ba5c39a89b
+
+COCOAPODS: 0.38.2
