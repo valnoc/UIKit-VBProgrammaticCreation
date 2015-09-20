@@ -10,7 +10,7 @@
 Pod::Spec.new do |s|
   s.name             = "UIKit+VBProgrammaticCreation"
   s.version          = "1.0.0"
-  s.summary          = "UIKit+VBProgrammaticCreation is a set of categories for UIKit classes (UIView, UIButton, UIBarButtonItem, ...) which help to create readable code if you instantiate ui elements programmatically."
+  s.summary          = "UIKit+VBProgrammaticCreation is a set of categories to instantiate ui elements programmatically."
   s.description      = <<-DESC
 UIKit+VBProgrammaticCreation is a set of categories for UIKit classes (UIView, UIButton, UIBarButtonItem, ...) which help to create readable code if you instantiate ui elements programmatically.
                        DESC
@@ -22,9 +22,9 @@ UIKit+VBProgrammaticCreation is a set of categories for UIKit classes (UIView, U
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
-  s.source_files = 'UIKit+VBProgrammaticCreation/**/*'
+  s.source_files = 'UIKit\+VBProgrammaticCreation/**/*'
 
   s.dependency 'VBException', '~> 1.0'
-  s.dependency 'UIButton+BackgroundColor', '~> 1.0'
+  s.dependency 'UIButton+BackgroundColor', '~> 0.1'
 
 end
