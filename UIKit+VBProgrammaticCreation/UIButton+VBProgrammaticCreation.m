@@ -24,8 +24,8 @@
 
 #import "UIButton+VBProgrammaticCreation.h"
 
-#import <VBInvalidClassException.h>
-#import <UIButton+BackgroundColor.h>
+#import <VBException/VBInvalidClassException.h>
+#import <UIButton+BackgroundColor/UIButton+BackgroundColor.h>
 
 @implementation UIButton (VBProgrammaticCreation)
 
