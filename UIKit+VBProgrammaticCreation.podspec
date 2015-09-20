@@ -10,7 +10,7 @@
 Pod::Spec.new do |s|
   s.name             = "UIKit+VBProgrammaticCreation"
   s.version          = "1.0.0"
-s.summary          = "UIKit+VBProgrammaticCreation is a set of categories for UIKit classes (UIView, UIButton, UIBarButtonItem, ...) which help to create readable code if you instantiate ui elements programmatically."
+  s.summary          = "UIKit+VBProgrammaticCreation is a set of categories for UIKit classes (UIView, UIButton, UIBarButtonItem, ...) which help to create readable code if you instantiate ui elements programmatically."
   s.description      = <<-DESC
 UIKit+VBProgrammaticCreation is a set of categories for UIKit classes (UIView, UIButton, UIBarButtonItem, ...) which help to create readable code if you instantiate ui elements programmatically.
                        DESC
