@@ -29,7 +29,7 @@
 /**
  *  Create view with CGRectAny. Usefull when creating views and layout programmatically as it simulates xib view createion (with any size classes).
  *
- *  @return Created UIView with frame == CGRectAny
+ *  @return Created UIView with frame (0; 0; 600; 600)
  */
 + (instancetype) viewWithFrameAny;
 
