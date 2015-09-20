@@ -22,7 +22,7 @@ UIKit+VBProgrammaticCreation is a set of categories for UIKit classes (UIView, U
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
-  s.source_files = 'UIKit\+VBProgrammaticCreation/**/*'
+  s.source_files = 'UIKit+VBProgrammaticCreation/**/*'
 
   s.dependency 'VBException', '~> 1.0'
   s.dependency 'UIButton+BackgroundColor', '~> 0.1'
