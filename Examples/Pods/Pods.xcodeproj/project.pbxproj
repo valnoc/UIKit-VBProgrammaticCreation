@@ -37,26 +37,26 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		153F92F0FCA3A1DEE04C6453BE1205DC /* PBXContainerItemProxy */ = {
+		236111F1E6CA00A7F67522E4915C7A36 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 936E5F203229E27B21FF89DD90B5B858;
-			remoteInfo = VBException;
+			remoteGlobalIDString = E4879583DF2273BE7CCD55E3BE4B4ED9;
+			remoteInfo = VBAutolayout;
 		};
-		3F0097FBCDD1B21AAF9322CA7CE1FD84 /* PBXContainerItemProxy */ = {
+		2E844D2711C15E7C60E20311671E9025 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = CBDBF7B8873558C0DB788884D3B1B39D;
 			remoteInfo = "UIButton+BackgroundColor";
 		};
-		4B8D317CB98E5B459E4E398F8B408E07 /* PBXContainerItemProxy */ = {
+		FB9E2CB54C7F2A87AE17002CA7552B6F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E4879583DF2273BE7CCD55E3BE4B4ED9;
-			remoteInfo = VBAutolayout;
+			remoteGlobalIDString = 936E5F203229E27B21FF89DD90B5B858;
+			remoteInfo = VBException;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -338,9 +338,9 @@
 			buildRules = (
 			);
 			dependencies = (
-				ED8837FEF4EAF18B204EDF75FE3E2F73 /* PBXTargetDependency */,
-				8245D07FDD39E70C8AB4996CB2711CE7 /* PBXTargetDependency */,
-				83636B0A241A9F4D06729096A416366B /* PBXTargetDependency */,
+				0CEB70BE3493A164B672AABD5308A763 /* PBXTargetDependency */,
+				F38E5EAD11D4D7741918E13F33A811D5 /* PBXTargetDependency */,
+				AEF731DE0BD18238B256D45C1BBAABAA /* PBXTargetDependency */,
 			);
 			name = Pods;
 			productName = Pods;
@@ -472,23 +472,23 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8245D07FDD39E70C8AB4996CB2711CE7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = VBAutolayout;
-			target = E4879583DF2273BE7CCD55E3BE4B4ED9 /* VBAutolayout */;
-			targetProxy = 4B8D317CB98E5B459E4E398F8B408E07 /* PBXContainerItemProxy */;
-		};
-		83636B0A241A9F4D06729096A416366B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = VBException;
-			target = 936E5F203229E27B21FF89DD90B5B858 /* VBException */;
-			targetProxy = 153F92F0FCA3A1DEE04C6453BE1205DC /* PBXContainerItemProxy */;
-		};
-		ED8837FEF4EAF18B204EDF75FE3E2F73 /* PBXTargetDependency */ = {
+		0CEB70BE3493A164B672AABD5308A763 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "UIButton+BackgroundColor";
 			target = CBDBF7B8873558C0DB788884D3B1B39D /* UIButton+BackgroundColor */;
-			targetProxy = 3F0097FBCDD1B21AAF9322CA7CE1FD84 /* PBXContainerItemProxy */;
+			targetProxy = 2E844D2711C15E7C60E20311671E9025 /* PBXContainerItemProxy */;
+		};
+		AEF731DE0BD18238B256D45C1BBAABAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VBException;
+			target = 936E5F203229E27B21FF89DD90B5B858 /* VBException */;
+			targetProxy = FB9E2CB54C7F2A87AE17002CA7552B6F /* PBXContainerItemProxy */;
+		};
+		F38E5EAD11D4D7741918E13F33A811D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VBAutolayout;
+			target = E4879583DF2273BE7CCD55E3BE4B4ED9 /* VBAutolayout */;
+			targetProxy = 236111F1E6CA00A7F67522E4915C7A36 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
