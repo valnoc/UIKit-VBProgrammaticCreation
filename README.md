@@ -1,5 +1,6 @@
 UIKit-VBProgrammaticCreation
 ===========
+[![](https://img.shields.io/cocoapods/v/UIKit+VBProgrammaticCreation.svg)]()
 
 UIKit-VBProgrammaticCreation is a set of categories for UIKit classes (UIView, UIButton, UIBarButtonItem, ...) which help to create readable code if you instantiate ui elements programmatically.
 
